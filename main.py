@@ -4,14 +4,7 @@ import strategy as strat
 import submission_checker as sc
 from submission_checker import get_positions
 
-decrypted_df = crp.read_encrypted(path='encrypted_data/release_3867.crypt', password='mXTi0PZ5oL731Zqx')
-
-print(decrypted_df)
-
-# dump into csv
-decrypted_df.to_csv('csv_data/release_3867.csv', index=False)
-
-strategy = strat.strategy(4507)
+strategy = strat.strategy(4571, "WPcFk8FofuBmfUzO")
 
 strategy = sc.get_submission_dict(strategy)
 print(strategy)

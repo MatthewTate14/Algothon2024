@@ -64,7 +64,7 @@ def distribute_weights(submission):
 
                 distribute = abs(data) - 0.1
 
-                count = len(submission) - np.sum(np.array([abs(val) for val in submission.values()]) > 0.1)
+                count = len(submission) - np.sum(np.array([abs(val) for val in submission.values()]) >= 0.1)
 
                 if data < 0:
 
@@ -94,8 +94,8 @@ def distribute_weights(submission):
 
     print(submission)
 
-def strategy(file):
-    data = cryptpandas.read_encrypted(path=f"encrypted_data/release_{file}.crypt", password='Zp4NnKkrC6OT0xms')
+def strategy(file, passcode):
+    data = cryptpandas.read_encrypted(path=f"encrypted_data/release_{file}.crypt", password=passcode)
 
     df = pd.DataFrame(data)
 
