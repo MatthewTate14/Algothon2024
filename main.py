@@ -8,17 +8,10 @@ print(decrypted_df)
 # dump into csv
 decrypted_df.to_csv('csv_data/release_3867.csv', index=False)
 
-# def get_positions():
-#     #TODO
-#     return 0
-#
-# #write the function to get the submission dictionary
-# def get_submission_dict(pos_dict, your_team_name: str = "2.5 Asians", your_team_passcode: str =
-# "tate"):
-#     return {
-#         **get_positions().to_dict(),
-#         **{
-#             "team_name": your_team_name,
-#             "passcode": your_team_passcode,
-#         },
-#     }
+def strategy():
+    return 0
+
+strategy = strategy()
+
+#add team name and passcode
+form_value = {}
