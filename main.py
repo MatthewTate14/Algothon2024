@@ -20,7 +20,7 @@ def get_submission_dict(pos_dict, your_team_name: str = "2.5 Asians", your_team_
         },
     }
 
-# {'strat_12': 0.1, 'strat_6': -0.1, 'strat_8': 0.1, 'strat_5': 0.1, 'strat_21': 0.1, 'strat_2': -0.1, 'strat_18': -0.1, 'strat_20': -0.1, 'strat_1': -0.1, 'strat_22': 0.1, 'team_name': '2.5 Asians', 'passcode': 'tate'}
+# {'strat_2': -0.1, 'strat_9': -0.1, 'strat_24': -0.1, 'strat_23': 0.1, 'strat_11': 0.1, 'strat_21': 0.1, 'strat_7': -0.1, 'strat_1': 0.1, 'strat_8': -0.1, 'strat_22': -0.1, 'team_name': '2.5 Asians', 'passcode': 'tate'}
 
 # dump into csv
 decrypted_df.to_csv('csv_data/release_3739.csv', index=False)
