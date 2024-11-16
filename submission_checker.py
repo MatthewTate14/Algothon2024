@@ -44,3 +44,5 @@ def get_submission_dict(
 #  'strat_9': 0.1,
 #  'team_name': 'a_great_team_name',
 #  'passcode': 'a_strong_p4$$c0d3'}
+
+# {'strat_10': -0.1, 'strat_3': -0.1, 'strat_2': 0.1, 'strat_9': 0.1, 'strat_13': -0.1, 'strat_7': 0.1, 'strat_24': -0.1, 'strat_19': 0.1, 'strat_23': -0.1, 'strat_25': -0.1, 'team_name': '2.5 Asians', 'passcode': 'tate'}
