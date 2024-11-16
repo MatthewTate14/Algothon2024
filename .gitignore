@@ -7,6 +7,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+client_secret_983689064077-335a7m03ud0dtk6cld82dddlritua216.apps.googleusercontent.com.json
+
 # C extensions
 *.so
 
