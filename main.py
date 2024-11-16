@@ -1,11 +1,9 @@
 import pandas as pd
 import cryptpandas as crp
 
-df = pd.DataFrame({'A': [1, 2, 3],
-                   'B': ['one', 'one', 'four']})
+decrypted_df = crp.read_encrypted(path='release_3547.crypt', password='oUFtGMsMEEyPCCP6')
 
-crp.to_encrypted(df, password='mypassword123', path='file.crypt')
+print(decrypted_df)
 
-decrypted_df = crp.read_encrypted(path='file.crypt', password='mypassword123')
-
-print((df == decrypted_df).all().all())
+#dump into csv
+decrypted_df.to_csv('release_3547.csv', index=False)
