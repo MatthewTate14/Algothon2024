@@ -22,7 +22,6 @@ def fetch_messages():
     url = f"https://slack.com/api/conversations.history?channel=C080P6M4DKL&pretty=1"
     # Set the headers
     headers = {
-        "Authorization": f"Bearer xoxb-8020284472341-8037162215381-VR4KPhv1ZoZcU81KUVFkQ3dp"
     }
     # Make the request
     response = requests.get(url, headers=headers)
